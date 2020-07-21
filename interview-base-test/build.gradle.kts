@@ -40,6 +40,9 @@ dependencies {
     api("org.powermock:powermock-module-junit4:2.0.7")
     api("org.powermock:powermock-module-junit4-rule:2.0.7")
 
+    api("io.mockk:mockk:1.10.0")
+    api("io.mockk:mockk-android:1.10.0")
+
     api("androidx.test.ext:junit:1.1.1")
     api("androidx.test.espresso:espresso-core:3.2.0")
 }

@@ -36,7 +36,7 @@ dependencies {
     api("org.powermock:powermock-module-junit4:2.0.7")
     api("org.powermock:powermock-module-junit4-rule:2.0.7")
 
-    api("org.mockito:mockito-core:3.3.3")
+    api("org.mockito:mockito-inline:3.4.6")
     api("io.mockk:mockk:1.10.0")
     api("io.mockk:mockk-android:1.10.0")
 

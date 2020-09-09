@@ -37,6 +37,8 @@ dependencies {
     api("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
     api("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
 
+    api("androidx.fragment:fragment-ktx:1.1.0")
+
     api("com.google.android.material:material:1.2.0")
 
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")

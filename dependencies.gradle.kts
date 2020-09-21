@@ -21,10 +21,6 @@ dependencies {
     }
 
     "testShared"("junit:junit:4.13")
-    "testShared"("org.powermock:powermock-core:2.0.7")
-    "testShared"("org.powermock:powermock-api-mockito2:2.0.7")
-    "testShared"("org.powermock:powermock-module-junit4:2.0.7")
-    "testShared"("org.powermock:powermock-module-junit4-rule:2.0.7")
     "testShared"("org.mockito:mockito-inline:3.5.10")
     "testShared"("io.mockk:mockk:1.10.0")
     "testShared"("io.mockk:mockk-android:1.10.0")

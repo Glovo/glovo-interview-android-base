@@ -1,5 +1,6 @@
 dependencies {
     "implementation"("androidx.appcompat:appcompat:1.2.0")
+    "implementation"("androidx.fragment:fragment-ktx:1.2.5")
     "implementation"("androidx.core:core-ktx:1.3.1")
     "implementation"("androidx.recyclerview:recyclerview:1.1.0")
     "implementation"("androidx.cardview:cardview:1.0.0")

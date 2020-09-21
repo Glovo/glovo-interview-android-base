@@ -1,5 +1,6 @@
 dependencies {
     "implementation"("androidx.appcompat:appcompat:1.2.0")
+    "implementation"("androidx.fragment:fragment-ktx:1.2.5")
     "implementation"("androidx.core:core-ktx:1.3.1")
     "implementation"("androidx.recyclerview:recyclerview:1.1.0")
     "implementation"("androidx.cardview:cardview:1.0.0")
@@ -20,10 +21,6 @@ dependencies {
     }
 
     "testShared"("junit:junit:4.13")
-    "testShared"("org.powermock:powermock-core:2.0.7")
-    "testShared"("org.powermock:powermock-api-mockito2:2.0.7")
-    "testShared"("org.powermock:powermock-module-junit4:2.0.7")
-    "testShared"("org.powermock:powermock-module-junit4-rule:2.0.7")
     "testShared"("org.mockito:mockito-inline:3.5.10")
     "testShared"("io.mockk:mockk:1.10.0")
     "testShared"("io.mockk:mockk-android:1.10.0")

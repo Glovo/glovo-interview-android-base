@@ -37,7 +37,7 @@ dependencies {
     "testShared"("androidx.test:core:1.4.0")
     "testShared"("androidx.test:rules:1.4.0")
     "testShared"("android.arch.core:core-testing:1.1.1")
-    "testShared"("com.jraska.livedata:testing-ktx:1.1.2")
+    "testShared"("com.jraska.livedata:testing-ktx:1.2.0")
 
     "testImplementation"(testShared)
     "testImplementation"("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")

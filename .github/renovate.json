@@ -1,0 +1,19 @@
+{
+  "enabledManagers": [
+    "gradle"
+  ],
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":combinePatchMinorReleases",
+    ":prConcurrentLimit10",
+    ":prHourlyLimitNone",
+    ":ignoreUnstable",
+    ":noUnscheduledUpdates",
+    ":renovatePrefix"
+  ],
+  "schedule": [
+    "before 9am every weekday"
+  ],
+  "commitMessagePrefix": "[Bump] "
+}

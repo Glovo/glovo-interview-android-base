@@ -45,7 +45,7 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-inline:4.5.1")
+    testImplementation("org.mockito:mockito-inline:5.2.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
     testImplementation("io.mockk:mockk:1.12.4")
     testImplementation("io.mockk:mockk-android:1.12.4")

@@ -64,7 +64,7 @@ dependencies {
 
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-inline:4.5.1")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
     testImplementation("io.mockk:mockk:1.13.5")
     testImplementation("io.mockk:mockk-android:1.13.5")
     testImplementation("androidx.test:runner:1.5.2")

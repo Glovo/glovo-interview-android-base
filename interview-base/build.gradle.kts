@@ -34,7 +34,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.6"
+        kotlinCompilerExtensionVersion = "1.5.8"
     }
 
     buildFeatures {
@@ -52,9 +52,9 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
     implementation("com.google.android.material:material:1.11.0")
     implementation("io.reactivex.rxjava3:rxjava:3.1.8")
     implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
@@ -74,14 +74,14 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.runtime:runtime-livedata")
     implementation("androidx.activity:activity-compose:1.8.2")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-inline:5.2.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
-    testImplementation("io.mockk:mockk:1.13.8")
-    testImplementation("io.mockk:mockk-android:1.13.8")
+    testImplementation("io.mockk:mockk:1.13.9")
+    testImplementation("io.mockk:mockk-android:1.13.9")
     testImplementation("androidx.test:runner:1.5.2")
     testImplementation("androidx.test.ext:junit:1.1.5")
     testImplementation("androidx.test.espresso:espresso-core:3.5.1")

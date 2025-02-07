@@ -79,7 +79,6 @@ dependencies {
     testImplementation(libs.androidx.test.espresso)
     testImplementation(libs.androidx.test.core)
     testImplementation(libs.androidx.test.rules)
-    testImplementation(libs.androidx.test.coreTesting)
     testImplementation(libs.jraska.livedata.testing)
     testImplementation(libs.kotlinx.coroutines.test)
 }

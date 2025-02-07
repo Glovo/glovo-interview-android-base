@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 
-include(":interview-base")
+include(":app")

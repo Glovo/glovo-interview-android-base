@@ -63,6 +63,7 @@ dependencies {
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.uiToolingPreview)
+    debugImplementation(platform(libs.androidx.compose.bom))
     debugImplementation(libs.androidx.compose.uiTooling)
     implementation(libs.androidx.compose.material)
     implementation(libs.androidx.compose.livedata)

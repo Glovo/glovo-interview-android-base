@@ -75,6 +75,7 @@ dependencies {
     testImplementation(libs.mockito.inline)
     testImplementation(libs.mockito.kotlin)
     testImplementation(libs.mockk)
+    testImplementation(libs.turbine)
     testImplementation(libs.androidx.test.runner)
     testImplementation(libs.androidx.test.junit)
     testImplementation(libs.androidx.test.espresso)

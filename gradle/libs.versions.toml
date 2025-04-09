@@ -4,7 +4,7 @@ kotlin = "2.1.20"
 [libraries]
 androidx-appcompat = "androidx.appcompat:appcompat:1.7.0"
 androidx-fragment = "androidx.fragment:fragment-ktx:1.8.6"
-androidx-core = "androidx.core:core-ktx:1.15.0"
+androidx-core = "androidx.core:core-ktx:1.16.0"
 androidx-recyclerview = "androidx.recyclerview:recyclerview:1.4.0"
 androidx-cardview = "androidx.cardview:cardview:1.0.0"
 androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.2.1"
@@ -15,16 +15,16 @@ androidx-lifecycle-livedata = "androidx.lifecycle:lifecycle-livedata-ktx:2.8.7"
 google-material = "com.google.android.material:material:1.12.0"
 rx-java = "io.reactivex.rxjava3:rxjava:3.1.10"
 rx-android = "io.reactivex.rxjava3:rxandroid:3.0.2"
-kotlinx-coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1"
+kotlinx-coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
 retrofit = "com.squareup.retrofit2:retrofit:2.11.0"
 retrofit-rx = "com.squareup.retrofit2:adapter-rxjava3:2.11.0"
 okhttp = "com.squareup.okhttp3:okhttp:4.12.0"
 okhttp-urlconnection = "com.squareup.okhttp3:okhttp-urlconnection:4.12.0"
 okhttp-loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:4.12.0"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
 kotlinx-serialization-retrofit = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0"
 
-androidx-compose-bom = "androidx.compose:compose-bom:2025.03.01"
+androidx-compose-bom = "androidx.compose:compose-bom:2025.04.00"
 androidx-compose-uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-compose-uiTooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-material = { module = "androidx.compose.material3:material3" }
@@ -36,7 +36,7 @@ androidx-compose-constraintlayout = "androidx.constraintlayout:constraintlayout-
 junit = "junit:junit:4.13.2"
 mockito-inline = "org.mockito:mockito-inline:5.2.0"
 mockito-kotlin = "org.mockito.kotlin:mockito-kotlin:5.4.0"
-mockk = "io.mockk:mockk-android:1.13.17"
+mockk = "io.mockk:mockk-android:1.14.0"
 turbine = "app.cash.turbine:turbine:1.2.0"
 androidx-test-runner = "androidx.test:runner:1.6.2"
 androidx-test-junit = "androidx.test.ext:junit:1.2.1"
@@ -44,7 +44,7 @@ androidx-test-espresso = "androidx.test.espresso:espresso-core:3.6.1"
 androidx-test-core = "androidx.test:core:1.6.1"
 androidx-test-rules = "androidx.test:rules:1.6.1"
 jraska-livedata-testing = "com.jraska.livedata:testing-ktx:1.3.0"
-kotlinx-coroutines-test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.1"
+kotlinx-coroutines-test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2"
 
 [plugins]
 android-application = { id = "com.android.application", version = "8.9.1" }

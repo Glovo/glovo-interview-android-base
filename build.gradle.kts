@@ -1,9 +1,11 @@
 val cacheDependencies = tasks.register<Sync>("cacheDependencies") {
     into(temporaryDir)
     allprojects {
-        configurations.matching { it.isCanBeResolved }.all {
+        val relativePath = projectDir.toRelativeString(rootDir)
+
+        configurations.matching { it.isCanBeResolved }.all config@{
             from(incoming.artifactView { componentFilter { it is ModuleComponentIdentifier } }.files) {
-                into("$path/$name")
+                into("$relativePath/${this@config.name}")
             }
         }
     }

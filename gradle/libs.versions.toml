@@ -35,7 +35,7 @@ androidx-compose-constraintlayout = "androidx.constraintlayout:constraintlayout-
 
 junit = "junit:junit:4.13.2"
 mockito-inline = "org.mockito:mockito-inline:5.2.0"
-mockito-kotlin = "org.mockito.kotlin:mockito-kotlin:5.4.0"
+mockito-kotlin = "org.mockito.kotlin:mockito-kotlin:6.0.0"
 mockk = "io.mockk:mockk-android:1.14.0"
 turbine = "app.cash.turbine:turbine:1.2.0"
 androidx-test-runner = "androidx.test:runner:1.6.2"

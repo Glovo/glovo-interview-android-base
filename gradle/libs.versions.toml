@@ -24,7 +24,7 @@ okhttp-loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:5.1.0"
 kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
 kotlinx-serialization-retrofit = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0"
 
-androidx-compose-bom = "androidx.compose:compose-bom:2025.04.00"
+androidx-compose-bom = "androidx.compose:compose-bom:2026.08.00"
 androidx-compose-uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-compose-uiTooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-material = { module = "androidx.compose.material3:material3" }

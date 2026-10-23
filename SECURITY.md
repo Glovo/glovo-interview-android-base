@@ -37,7 +37,7 @@ Please include the requested information listed below (as much as you can provid
 
 This information will help us triage your report more quickly.
 
-If you are reporting for a bug bounty, please visit our Delivery Hero Bug Bounty Program page for more details about our active programs, as well as to get familliar with our scope: https://hackerone.com/deliveryhero/policy_scopes
+If you are reporting for a bug bounty, please visit our Delivery Hero Bug Bounty Program page for more details about our active programs, as well as to get familiar with our scope: https://hackerone.com/deliveryhero/policy_scopes
 
 ## Preferred Languages
 
